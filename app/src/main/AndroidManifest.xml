@@ -21,7 +21,7 @@
         </activity>
 
         <receiver
-            android:name=".MyBroadcastReceiver"
+            android:name=".SmsBroadcastReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>

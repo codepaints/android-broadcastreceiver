@@ -9,7 +9,6 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Html;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -37,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements MessageListener {
             requestReceiveSmsPermission();
         }
 
-        MyBroadcastReceiver.bindListener(this);
+        SmsBroadcastReceiver.bindListener(this);
 
     }
 

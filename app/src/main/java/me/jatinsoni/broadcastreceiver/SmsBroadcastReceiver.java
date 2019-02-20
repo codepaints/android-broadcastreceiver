@@ -8,7 +8,7 @@ import android.telephony.SmsMessage;
 import android.util.Log;
 import android.widget.Toast;
 
-public class MyBroadcastReceiver extends BroadcastReceiver {
+public class SmsBroadcastReceiver extends BroadcastReceiver {
 
     public static final String SMS_KEY = "pdus";
     public static MessageListener messageListener;
